@@ -158,6 +158,24 @@ footer {
     font-weight: 700;
 }
 
+/* ------------------------social link ------------------ */
+
+.social-link {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.link {
+    margin-left: 5%;
+    size: 20px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    padding: 10px 30px;
+    border-radius: 5px;
+}
+
 /* ----------------------
 responsible section 
 ------------------------- */
