@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0px;
+}
+
+/* ---------------
+Header section Desing 
+-------------------------- */
+.container {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.first-sec {
+    width: 80%;
+    height: 80vh;
+    background-color: rgba(11, 11, 11, 0.953);
+    color: white;
+    display: flex;
+    border-radius: 15px;
+}
+
+.title {
+    font-size: 50px;
+    padding-bottom: 3%;
+}
+
+.text {
+    padding: 5% 10%;
+}
+
+.header-article {
+    margin-bottom: 5%;
+    font-size: 15px;
+}
+
+.button {
+    text-decoration: none;
+    background-color: rgb(171, 35, 11);
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 5%;
+    color: white;
+    font-weight: 700;
+}
+
+.button-white {
+    text-decoration: none;
+    background-color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    margin-top: 5%;
+    color: black;
+    font-weight: 700;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.half-width img {
+    width: 100%;
+    height: 100%;
+    padding: 0 10%;
+}
+
+
+
+/* -------------------------
+----Button section design---
+-------------------------------  */
+.button-sec {
+    height: 312px;
+    width: 312px;
+    background-color: black;
+
+}
+
+.button-blogs {
+    display: flex;
+    padding: 5% 15%;
+    justify-content: center;
+
+}
+
+.button-item {
+    height: 252px;
+    width: 252px;
+    display: flex;
+    flex-direction: column;
+    padding: 20% 5%;
+    margin: 10px;
+    border: 20px 0;
+}
+
+/* blog section design  */
+.icon {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.first-icon {
+    display: flex;
+}
+
+.second-icon {
+    display: flex;
+}
+
+.blogs {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 5px;
+}
+
+.blog {
+    padding: 10px;
+}
+
+/* --------------Footer part ------- */
+footer {
+    background-color: rgba(10, 10, 20, 0.616);
+}
+
+.footer-details {
+    padding: 10%;
+}
+
+.footer-header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.footer-option {
+    display: flex;
+    font-weight: 400;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+
+.op-name {
+    font-weight: 700;
+}
